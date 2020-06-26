@@ -1,0 +1,25 @@
+{
+  "name": "gdz",
+  "version": "0.0.0",
+  "description": "GDZ BOT ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "ZHARCKOV (https://vk.com/id171745503)",
+  "license": "ISC",
+  "dependencies": {
+    "@vk-io/scenes": "0.0.0-alpha.5",
+    "@vk-io/session": "0.0.0-alpha.3",
+    "moment": "^2.26.0",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "vk-io": "^4.0.0-rc.30"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  }
+}
